@@ -10,8 +10,7 @@ import Layout from '../components/Layout'
 export default function Blog({posts}) {
     return (<>        
         <Head>
-            <title>dangush</title>
-            <link rel="icon" href="/favicon.ico" />
+            <title>dangush/posts</title>
         </Head>
         <Layout title="blog">
             {posts.map(post => {

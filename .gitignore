@@ -36,3 +36,7 @@ yarn-error.log*
 
 # typescript
 *.tsbuildinfo
+
+
+#fonts cuz they dont work lol
+/public/fonts

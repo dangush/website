@@ -12,24 +12,31 @@ const Home: NextPage = () => {
      <Head>
         <title>dangush</title>
       </Head>
-      <Layout title="~">
-        <h1 className="text-xl font-semibold">Daniel Gushchyan</h1>
-        <br></br>
-        <p className="">
-          I'm currently a student studying Computer Science at UC Berkeley.
-        </p>
-        <p>
-          My purpose is to build towards a more integrated, trustless world via blockchain and decentralized technologies.
-        </p>
-        <br/>
-        <h2 className="text-lg font-medium">Contact</h2> 
-        <p>Email: daniel.g (at) berkeley.edu</p>
-        <p>Twitter: <LinkTo href="twitter.com/0xdyan">@0xdyan</LinkTo></p>
-        <p>LinkedIn: <LinkTo href="linkedin.com/in/danielgushchyan">corporate</LinkTo></p>
-        <br/>
-        <div className="text-center">
-          <p className="inline py-1 px-2 text-lg border-x-2 border-amber-400">
-            <LinkTo href=""><Link href="/posts">Blog</Link></LinkTo> | <LinkTo href=""><Link href="/reviews">Reviews</Link></LinkTo></p>
+      <Layout title="~" width="3/5">
+        <div className="m-10">
+          <h1 className="text-xl font-semibold">Daniel Gushchyan</h1>
+          <br></br>
+          <p className="">
+            I'm currently a student studying Computer Science at UC Berkeley.
+          </p>
+          <p>
+            My purpose is to build towards a more integrated, trustless world via blockchain and decentralized technologies.
+          </p>
+          <p>
+            In my free time I like to explore new music, read too many self-help books, և լինել հայ.
+          </p>
+          <br/>
+          <h2 className="text-lg font-medium">Contact</h2> 
+          <p>I love conversation. If you'd like to talk, reach out to me via one of these channels (in order of preference)</p>
+          <br/>
+          <p>Email: daniel.g (at) berkeley.edu</p>
+          <p>Twitter: <LinkTo href="twitter.com/0xdyan">@0xdyan</LinkTo></p>
+          <p>LinkedIn: <LinkTo href="linkedin.com/in/danielgushchyan">corporate</LinkTo></p>
+          <br/>
+          <div className="text-center">
+            <p className="inline py-1 px-2 text-lg border-x-2 border-amber-400">
+              <LinkTo href=""><Link href="/posts">Blog</Link></LinkTo> | <LinkTo href=""><Link href="/reviews">Reviews</Link></LinkTo></p>
+          </div>
         </div>
       </Layout>
   </>)
