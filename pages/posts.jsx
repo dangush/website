@@ -50,7 +50,6 @@ export async function getStaticProps(){
           frontmatter,
         };
     });
-    console.log(posts)
 
     // Return the pages static props
     return {
