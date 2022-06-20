@@ -5,6 +5,7 @@ import Example from './example'
 import Link from 'next/link'
 import Breadcrumbs from 'nextjs-breadcrumbs'
 import Layout from '../components/Layout'
+import LinkTo from '../components/LinkTo'
 
 const Home: NextPage = () => {
   return (<>
@@ -21,9 +22,16 @@ const Home: NextPage = () => {
         <p>
           My purpose is to build towards a more integrated, trustless world via blockchain and decentralized technologies.
         </p>
-        <br>
-        </br>
-        <Link href="/posts">Go to BLOG</Link>
+        <br/>
+        <h2 className="text-lg font-medium">Contact</h2> 
+        <p>Email: daniel.g (at) berkeley.edu</p>
+        <p>Twitter: <LinkTo href="twitter.com/0xdyan">@0xdyan</LinkTo></p>
+        <p>LinkedIn: <LinkTo href="linkedin.com/in/danielgushchyan">corporate</LinkTo></p>
+        <br/>
+        <div className="text-center">
+          <p className="inline py-1 px-2 text-lg border-x-2 border-amber-400">
+            <LinkTo href=""><Link href="/posts">Blog</Link></LinkTo> | <LinkTo href=""><Link href="/reviews">Reviews</Link></LinkTo></p>
+        </div>
       </Layout>
   </>)
 }

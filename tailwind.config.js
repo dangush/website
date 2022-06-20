@@ -9,7 +9,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        'sans': ['OCR-A', ...defaultTheme.fontFamily.sans],
+        'sans': ['Courier Prime', 'OCR-A', ...defaultTheme.fontFamily.sans],
       },
     },
   },
