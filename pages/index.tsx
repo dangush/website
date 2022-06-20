@@ -11,7 +11,6 @@ const Home: NextPage = () => {
   return (<>
      <Head>
         <title>dangush</title>
-        <link rel="icon" href="/favicon.ico" />
       </Head>
       <Layout title="~">
         <h1 className="text-xl font-semibold">Daniel Gushchyan</h1>
