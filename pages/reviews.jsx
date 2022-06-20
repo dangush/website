@@ -47,9 +47,9 @@ export default function Reviews({posts}) {
                                                 />
                                     </div>
                                     <div className="relative">
-                                        <p className="w-10/12 absolute left-0 bottom text-center justify-center">{blurb}</p>
+                                        <p className="absolute left-0 w-10/12 text-center">{blurb}</p>
                                         <Rating 
-                                            className="flex flex-col-reverse absolute right-0"
+                                            className="absolute right-0 flex flex-col-reverse"
                                             sx={{
                                                 '& .MuiRating-iconFilled': {
                                                 color: 'black',
