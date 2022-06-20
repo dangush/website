@@ -46,10 +46,10 @@ export default function Reviews({posts}) {
                                                 objectFit='contain'
                                                 />
                                     </div>
-                                    <div className="relative">
-                                        <p className="absolute left-0 w-10/12 text-center">{blurb}</p>
+                                    <div className="relative flex flex-row justify-evenly items-center">
+                                        <p className="w-10/12 text-center">{blurb}</p>
                                         <Rating 
-                                            className="absolute right-0 flex flex-col-reverse"
+                                            className="flex flex-col-reverse"
                                             sx={{
                                                 '& .MuiRating-iconFilled': {
                                                 color: 'black',
@@ -57,7 +57,7 @@ export default function Reviews({posts}) {
                                                 '& .MuiRating-iconEmpty': {
                                                     color: 'black',
                                                 }}}
-                                            size="small" value={rating} defaultValue={1} precision={0.5} readOnly />
+                                            size="small" value={parseFloat(rating)} defaultValue={1} precision={0.5} readOnly />
                                     </div>  
                                 </div>
                             </div>
