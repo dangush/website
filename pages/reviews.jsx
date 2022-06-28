@@ -46,10 +46,10 @@ export default function Reviews({posts}) {
                                                 objectFit='contain'
                                                 />
                                     </div>
-                                    <div className="relative flex flex-row justify-evenly items-center">
+                                    <div className="relative flex flex-col justify-evenly items-center">
                                         <p className="w-10/12 text-center">{blurb}</p>
                                         <Rating 
-                                            className="flex flex-col-reverse"
+                                            className=""
                                             sx={{
                                                 '& .MuiRating-iconFilled': {
                                                 color: 'black',

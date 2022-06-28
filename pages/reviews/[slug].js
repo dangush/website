@@ -5,9 +5,11 @@ import Head from 'next/head'
 import Layout from "../../components/Layout";
 import Image from 'next/image'
 import markdownToHtml from '../api/markdownToHtml'
+//import markdownStyles from '../../components/markdown-styles.module.css'
+//import ReactMarkdown from 'react-markdown'
 
 // The page for each post
-export default function Review({frontmatter, contentHTML}) {
+export default function Review({frontmatter, content}) {
     const {title, author, category, date, bannerImage, tags, blurb} = frontmatter
 
     return (<>
@@ -28,7 +30,7 @@ export default function Review({frontmatter, contentHTML}) {
           </div>
           <h3 className="text-center pb-5 border-b-2 border-amber-400">{blurb}</h3>
           <br/>
-          <div dangerouslySetInnerHTML={{ __html: contentHTML }} />
+          <div className="flex justify-center font-posts"><div className="prose max-w-none lg:w-4/6 md:w-10/12 w-full" dangerouslySetInnerHTML={{ __html: md().render(content) }} /></div>
         </div>
       </Layout>
     </>)
@@ -57,12 +59,10 @@ export async function getStaticProps({ params: { slug } }) {
     const fileName = fs.readFileSync(`reviews/${slug}.md`, 'utf-8');
     const { data: frontmatter, content } = matter(fileName);
     
-    const contentHTML = await markdownToHtml(content || '')
-
     return {
       props: {
         frontmatter,
-        contentHTML,
+        content,
       },
     };
   }

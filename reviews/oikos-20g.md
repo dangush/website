@@ -13,8 +13,7 @@ Oikos is a solid standard for the '~12g protein, ~1g fat, ~12g sugar' category o
 
 While well-suited for gym-goers like myself who can take the hit on flavor for nutrition purposes, I found myself drifting away from Oikos recently to better, realer tasting flavored yogurts, such as Chobani and Ellenos.
 
-
-# NOW. This is NOT review about the standard Oikos yogurts. This is a review of the Oikos **PRO**. 
+#### NOW. This is NOT review about the standard Oikos yogurts. This is a review of the Oikos **PRO**. 
 
 > A cool new pick I found at Ralphs the other day.
 

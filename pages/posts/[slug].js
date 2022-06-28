@@ -13,12 +13,15 @@ export default function Post({frontmatter, content}) {
       <Head>
         <title>title</title>
       </Head>
-      <Layout>
-        <img src={bannerImage}/>
-        <h1>{title}</h1>
-        <h2>{author} || {date}</h2>
-        <h3>{category} || {tags.join()}</h3>
-        <div dangerouslySetInnerHTML={{ __html: md().render(content) }} />
+      <Layout width="10/12 font-posts">
+        <div className="m-4 lg:m-10 flex flex-col justify-left">
+          <div className="lg:ml-10">
+            <h1 className="text-3xl font-md">{title}</h1>
+            <h2 className="text-xs mt-2">{date}</h2>
+          </div>
+          <br/>
+          <div className="flex justify-center"><div className="prose max-w-none lg:w-7/12 md:w-10/12 w-full" dangerouslySetInnerHTML={{ __html: md().render(content) }} /></div>
+        </div>
       </Layout>
     </>)
 }

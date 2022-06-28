@@ -10,8 +10,9 @@ module.exports = {
     extend: {
       fontFamily: {
         'sans': ['Courier Prime', 'OCR-A', ...defaultTheme.fontFamily.sans],
+        'posts': ['Noto Sans', 'Georgia']
       },
     },
   },
-  plugins: [],
+  plugins: [require('@tailwindcss/typography')],
 }
