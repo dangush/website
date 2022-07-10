@@ -4,7 +4,7 @@ author: "dangush"
 blurb: 'Creamy, flavorful.'
 bannerImage: '/assets/reviews/ellenos.png'
 date: '2022-06-22'
-rating: '3.5'
+rating: '4'
 tags:
   - yogurt
 ---
@@ -17,11 +17,13 @@ Personally, I'm a fan of firm texture. With ~10g, the creaminess was kind of exc
 
 Aesthetically, Ellenos is fire. White and blue theme harkoning back to mother Greece, completely pointless but enjoyable plastic cap on the yogurt cup, transparency, well designed logo and lettering. Great job to their design/branding team. 
 
-## Numbers
+### Numbers
 1. Flavor & Texture: 5/5
 2. Nutrition: 4/5
 3. Aesthetic: 5/5
 
-### Total: 4.5/5
+### Total: 
+#### 4.5/5
 
-So to conclude, Ellenos is a fantastic choice of Greek yogurt, especially if you're a fan of creaminess. The fruit flavors are delightful, the nutrition is on point, and it looks dope. While the score technically adds up to 4.5/5, I'm going to pull a little bs and adjust to a 4/5, just because that's more accurate to how I feel about it right now. Give it a try!
+
+All in all, Ellenos is a fantastic choice of Greek yogurt, especially if you're a fan of creaminess. The fruit flavors are delightful, the nutrition is on point, and it looks dope. While the score technically adds up to 4.5/5, I'm going to pull a little bs and adjust to a 4/5, just because that's more accurate to how I feel about it right now. Give it a try!
