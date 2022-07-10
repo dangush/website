@@ -40,3 +40,6 @@ yarn-error.log*
 
 #fonts cuz they dont work lol
 /public/fonts
+
+#POSTS
+/posts/vitalik.md
