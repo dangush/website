@@ -24,12 +24,18 @@ export default function Reviews({posts}) {
                 exploitation! (??)</p>
             </div>
             <div className="grid xl:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 w-full h-full ">
-                {posts.map(post => {
+                {posts.filter((post) => {
+                    const {slug} = post
+                    if (slug === "template") {
+                        return false;
+                    }
+                    return true;
+                }).map(post => {
                     //extract slug and frontmatter
                     const {slug, frontmatter} = post
                     //extract frontmatter properties
                     const {title, blurb, bannerImage, tags, rating} = frontmatter
-
+                    
                     //JSX for individual blog listing
                     return (
                         <Link href={`/reviews/${slug}`}
