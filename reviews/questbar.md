@@ -3,7 +3,7 @@ title: 'Quest Protein Bar'
 author: "dangush"
 blurb: 'Pretty outside, ugly inside'
 bannerImage: '/assets/reviews/questbar.jpeg'
-date: '2022-06-22'
+date: '2022-07-11'
 rating: '1.5'
 tags:
   - 
