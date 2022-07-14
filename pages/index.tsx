@@ -16,23 +16,30 @@ const Home: NextPage = () => {
         <div className="m-10">
           <h1 className="text-2xl font-semibold underline underline-offset-2 decoration-2 decoration-amber-400">Daniel Gushchyan</h1>
           <br></br>
-          <p className="">
-            I'm currently a student studying Computer Science at UC Berkeley.
+          <p>
+            Too much of our life, liberty, and property is in the hands of entities we can't even see.
+            The tools to change this exist today. Our responsibility to use them is burning.
           </p>
           <p>
-            My purpose is to build towards a more integrated, trustless world via blockchain and decentralized technologies.
+            My purpose is to build towards a more integrated, trustless world via <LinkTo href={"https://www.youtube.com/watch?v=UbRlumFvgr4"}>blockchain</LinkTo> and decentralized technologies.
+          </p>
+          <br/>
+          <p className="">
+            I'm currently a student studying Computer Science at UC Berkeley, and a member of <LinkTo href={"https://blockchain.berkeley.edu"}>Blockchain at Berkeley</LinkTo>.
           </p>
           <br/>
           <p>
-            In my free time I like to explore new music, read too many self-help books, և լինել հայ.
+            In my free time I like to lift heavy objects, explore music, read too many self-help books, և լինել հպարթ հայ.
           </p>
           <br/>
           <h2 className="mt-2 text-lg font-semibold">Contact</h2> 
-          <p>I love conversation. If you'd like to talk, reach out to me via one of these channels (in order of preference):</p>
+          <p>I love conversation. If you'd like to talk, reach out to me via the channels below (in order of preference):</p>
           <br/>
           <p>Email: daniel.g (at) berkeley.edu</p>
           <p>Twitter: <LinkTo href="https://www.twitter.com/0xdyan">@0xdyan</LinkTo></p>
-          <p>LinkedIn: <LinkTo href="https://www.linkedin.com/in/danielgushchyan">corporate</LinkTo></p>
+          <p>Calendly: <LinkTo href="https://calendly.com/dangush">schedule</LinkTo></p>
+          <p>LinkedIn: <LinkTo href="https://www.linkedin/in/danielgushchyan">corporate</LinkTo></p>
+          <p>GitHub: <LinkTo href="https://www.github.com/dangush">dangush</LinkTo></p>
           <br/>
           <div className="text-center">
             <p className="inline py-1 px-3 text-lg border-x-2 border-amber-400">
