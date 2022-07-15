@@ -13,7 +13,7 @@ export default function Blog({posts}) {
             <title>dangush/posts</title>
         </Head>
         <Layout title="blog" width="">
-            <div className="p-10 flex flex-col space-y-5">
+            <div className="md:mx-10 md:my-10 mx-2 my-6 flex flex-col space-y-5">
                 {posts.map(post => {
                     //extract slug and frontmatter
                     const {slug, frontmatter} = post
@@ -27,7 +27,7 @@ export default function Blog({posts}) {
                         <h3 className="block text-sm">{date}</h3>
                         <Link
                             href={`/posts/${slug}`}>
-                            <h1 className="text-2xl">{title}</h1>
+                            <h1 className="md:text-2xl text-lg">{title}</h1>
                         </Link>
                     </article>
                 })}

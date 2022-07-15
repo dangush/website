@@ -30,7 +30,10 @@ export default function Review({frontmatter, content}) {
           </div>
           <h3 className="text-center pb-5 border-b-2 border-amber-400">{blurb}</h3>
           <br/>
-          <div className="flex justify-center font-posts"><div className="prose max-w-none lg:w-4/6 md:w-10/12 w-full" dangerouslySetInnerHTML={{ __html: md().render(content) }} /></div>
+          <div className="flex justify-center font-posts">
+            <div className="prose max-w-none lg:w-4/6 md:w-10/12 w-full md:text-base text-sm leading-relaxed" 
+              dangerouslySetInnerHTML={{ __html: md().render(content) }} />
+            </div>
         </div>
       </Layout>
     </>)

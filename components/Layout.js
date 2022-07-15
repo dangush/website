@@ -16,7 +16,7 @@ export default function Layout({title, width, children }) {
                 replaceCharacterList={[{from:'\n', to: ''}]}
             />
     
-          <main className={`my-5 md:w-${width} w-10/12 border-2 p-2 border-black bg-white drop-shadow-xl`}>
+          <main className={`my-5 md:w-${width} w-11/12 border-2 p-2 border-black bg-white drop-shadow-xl`}>
               {children}
           </main>
         </div>

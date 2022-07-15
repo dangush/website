@@ -15,7 +15,7 @@ export default function Reviews({posts}) {
             <title>dangush/reviews</title>
         </Head>
         <Layout title="blog" width="10/12">
-            <div className="m-10 pb-6 border-b-2 border-amber-400">
+            <div className="md:m-10 m-5 pb-6 border-b-2 border-amber-400 md:text-base text-sm">
                 <h1 className="text-xl font-semisbold">Reviews</h1>
                 <p className="mt-2">Life is beautiful. However, some things are more beautiful than others.</p>
                 <p className="mt-2">Every day, we have to make the decision to either <i>explore</i> or <i>exploit</i> our options. 

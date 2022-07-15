@@ -12,8 +12,8 @@ const Home: NextPage = () => {
      <Head>
         <title>dangush</title>
       </Head>
-      <Layout title="~" width="3/5">
-        <div className="m-10">
+      <Layout title="~" width="">
+        <div className="md:m-10 m-5 md:text-base text-sm">
           <h1 className="text-2xl font-semibold underline underline-offset-2 decoration-2 decoration-amber-400">Daniel Gushchyan</h1>
           <br></br>
           <p>
