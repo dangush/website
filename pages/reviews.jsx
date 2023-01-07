@@ -19,9 +19,10 @@ export default function Reviews({posts}) {
                 <h1 className="text-xl font-semisbold">Reviews</h1>
                 <p className="mt-2">Life is beautiful. However, some things are more beautiful than others.</p>
                 <p className="mt-2">Every day, we have to make the decision to either <i>explore</i> or <i>exploit</i> our options. 
-                Unfortunately, I don't know anything about ML to tell you what the time complexity of this is, but it's probably pretty ass.</p>
+                Unfortunately, I don't know anything about ML to tell you what the time complexity of this is, but it's probably not great.</p>
                 <p className="mt-2">Here are the results of my own exploration to help you - yes you - live a life of plentiful 
                 exploitation!</p>
+                <p className="text-sm text-justify-right mt-2">Disclaimer: this entire page and its contents are not serious</p>
             </div>
             <div className="grid xl:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 w-full h-full ">
                 {posts.filter((post) => {

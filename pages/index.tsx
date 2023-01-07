@@ -29,7 +29,7 @@ const Home: NextPage = () => {
           </p>
           <br/>
           <p>
-            In my free time I like to lift heavy objects, explore music, read too many self-help books, և լինել հպարթ հայ.
+            In my free time I like to lift heavy objects, formulate opinions on products, read too many self-help books, և լինել հպարթ հայ.
           </p>
           <br/>
           <h2 className="mt-2 text-lg font-semibold">Contact</h2> 
