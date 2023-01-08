@@ -42,6 +42,6 @@ yarn-error.log*
 /public/fonts
 
 #POSTS
-/posts/vitalik.md
+/posts/vitalik-test.md
 /reviews/template.md
 COPY_ATTEMPTS.txt
