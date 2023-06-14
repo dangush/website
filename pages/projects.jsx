@@ -34,7 +34,7 @@ export default function Projects({posts}) {
                     
                     //JSX for individual blog listing
                     return (
-                        <Link href={`/reviews/${slug}`}
+                        <Link href={`/projects/${slug}`}
                             key={title}>
                             <div className="h-48 border-2 border-black py-3 px-4 m-4 bg-white drop-shadow-xl hover:cursor-pointer hover:text-amber-400">
                                 <h1 className="text-lg md:text-xl lg:text-2xl">{title}</h1>

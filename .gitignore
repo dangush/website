@@ -43,5 +43,6 @@ yarn-error.log*
 
 #POSTS
 /posts/vitalik-test.md
+/posts/.vitalik-test.md
 /reviews/template.md
 COPY_ATTEMPTS.txt

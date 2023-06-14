@@ -18,22 +18,25 @@ const Home: NextPage = () => {
           <br></br>
           <p>
             Too much of our life, liberty, and property is in the hands of entities we can't even see.
+          </p>          
+          <p>
             The tools to change this exist today. Our responsibility to use them is burning.
           </p>
+          <br/>
           <p>
-            My purpose is to build towards a more integrated, trustless world via <LinkTo href={"https://www.youtube.com/watch?v=UbRlumFvgr4"}>blockchain</LinkTo> and decentralized technologies.
+            My purpose is to build towards a more integrated, trustless world via <LinkTo href={"https://www.youtube.com/watch?v=UbRlumFvgr4"}>blockchain</LinkTo>, decentralized system design, and cryptography.
           </p>
           <br/>
           <p className="">
-            I'm currently a student studying Computer Science at UC Berkeley, and a member of <LinkTo href={"https://blockchain.berkeley.edu"}>Blockchain at Berkeley</LinkTo>.
+            I'm currently a student studying Computer Science at UC Berkeley, and President of <LinkTo href={"https://blockchain.berkeley.edu"}>Blockchain at Berkeley</LinkTo>.
           </p>
           <br/>
           <p>
-            In my free time I like to lift heavy objects, formulate opinions on products, read too many self-help books, և լինել հպարթ հայ.
+            In my free time I like to lift heavy objects, explore music through rym, read bad books, և լինել հպարթ հայ.
           </p>
           <br/>
           <h2 className="mt-2 text-lg font-semibold">Contact</h2> 
-          <p>I love conversation. If you'd like to talk, reach out to me via the channels below (in order of preference):</p>
+          <p>I love conversation. If you'd like to chat, please reach out to me via the channels below.</p>
           <br/>
           <p>Email: daniel.g (at) berkeley.edu</p>
           <p>Twitter: <LinkTo href="https://www.twitter.com/0xdyan">@0xdyan</LinkTo></p>

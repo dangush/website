@@ -21,9 +21,9 @@ For example, let's take the chocolate dough flavor. Can anyone put into words wt
 
 But let me tell you, this shit tastes *exactly* like chocolate dough. 
 
-It's this beautiful, rich, creamy milk chocolate taste, similar to a brownie with a chocolate filling. On the outside, little chocolate sprinkles that give a beautiful crackle to every bite. It's insane to imagine that you're eating 20 grams of protein with zero sugar.
+It's this beautiful, rich, creamy milk chocolate taste, similar to a brownie with a chocolate filling. On the outside, little chocolate sprinkles that give a beautiful crackle to every bite. It's amazing to imagine that you're eating 20 grams of protein with that rich of dessert food flavor.
 
-I'm so obsessed with this product that I literally couldn't even care to question what sus sugar they use to make this work. 
+I'm so obsessed with this product that I literally couldn't even care to question what the probably inane amount of sucralose they use is doing to my body.
 
 ### Numbers
 1. Flavor & Texture: 5/5
@@ -36,3 +36,5 @@ I'm so obsessed with this product that I literally couldn't even care to questio
 Honestly, that's all I'm going to say. Get this next time you're at Trader Joe's, or wherever. 
 
 There's nothing better. QED.
+
+Update: Trader Joes increased the price from $2 to $2.30. This is proof that inflation is 15%, fuck the US government

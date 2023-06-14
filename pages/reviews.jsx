@@ -17,12 +17,11 @@ export default function Reviews({posts}) {
         <Layout title="blog" width="10/12">
             <div className="md:m-10 m-5 pb-6 border-b-2 border-amber-400 md:text-base text-sm">
                 <h1 className="text-xl font-semisbold">Reviews</h1>
-                <p className="mt-2">Life is beautiful. However, some things are more beautiful than others.</p>
-                <p className="mt-2">Every day, we have to make the decision to either <i>explore</i> or <i>exploit</i> our options. 
-                Unfortunately, I don't know anything about ML to tell you what the time complexity of this is, but it's probably not great.</p>
-                <p className="mt-2">Here are the results of my own exploration to help you - yes you - live a life of plentiful 
-                exploitation!</p>
-                <p className="text-sm text-justify-right mt-2">Disclaimer: this entire page and its contents are not serious</p>
+                <p className="mt-2">Every day, we have to make the decision to either <i>explore</i> or <i>exploit</i> our options.</p>
+                <p className="mt-2">These instances range from life-altering career decisions demanding hours of grueling thought, to your chipotle order where regardless of how much you think your choice remains the same every time.</p>
+                <p className="mt-2">Here are the results of my own extremeley valuable exploration to help you - yes you - live a life of plentiful 
+                exploitation.</p>
+                {/* <p className="text-sm text-justify-right mt-2">Disclaimer: this entire page and its contents are not serious</p> */}
             </div>
             <div className="grid xl:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 w-full h-full ">
                 {posts.filter((post) => {
