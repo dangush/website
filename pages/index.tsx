@@ -28,11 +28,14 @@ const Home: NextPage = () => {
           </p>
           <br/>
           <p className="">
-            I'm currently a student studying Computer Science at UC Berkeley, and President of <LinkTo href={"https://blockchain.berkeley.edu"}>Blockchain at Berkeley</LinkTo>.
+            I'm currently engineering for <LinkTo href={"https://cycles.money"}>Cycles</LinkTo> at <LinkTo href={"https://informal.systems"}>Informal Systems</LinkTo> with the goal of clearing the most debt, with the least amount of money, for the most people possible.
+          </p>
+          <p>
+            Previously, I studied Computer Science and Political Economy at UC Berkeley, and led <LinkTo href={"https://blockchain.berkeley.edu"}>Blockchain at Berkeley</LinkTo> as President.
           </p>
           <br/>
           <p>
-            In my free time I like to lift heavy objects, explore music through rym, read bad books, և լինել հպարթ հայ.
+            In my free time I like to lift heavy objects, explore music through rym, hide incomplete thoughts in Obsidian vaults, և լինել հպարթ հայ.
           </p>
           <br/>
           <h2 className="mt-2 text-lg font-semibold">Contact</h2> 
@@ -41,7 +44,7 @@ const Home: NextPage = () => {
           <p>Email: daniel.g (at) berkeley.edu</p>
           <p>Twitter: <LinkTo href="https://www.twitter.com/0xdyan">@0xdyan</LinkTo></p>
           <p>Calendly: <LinkTo href="https://calendly.com/dangush">schedule</LinkTo></p>
-          <p>LinkedIn: <LinkTo href="https://www.linkedin/in/danielgushchyan">corporate</LinkTo></p>
+          <p>LinkedIn: <LinkTo href="https://www.linkedin.com/in/danielgushchyan">4 corpo's</LinkTo></p>
           <p>GitHub: <LinkTo href="https://www.github.com/dangush">dangush</LinkTo></p>
           <br/>
           <div className="text-center">
